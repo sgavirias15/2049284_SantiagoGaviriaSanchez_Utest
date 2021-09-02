@@ -16,7 +16,7 @@ Feature: As a user, i need to perform the validations that ensure the creation o
 
     Examples:
       | firstName | lastName | email              | month  | day | year | city     | zip     | password        | confirmPassword |
-      | Pedro     | Arbelaez | ae34456so@xxdf.com | August | 18  | 1993 | Medellín | 0500500 | Abcdef123456789 | Abcdef123456789 |
+      | Pedro     | Arbelaez | ae34488so@xxdf.com | August | 18  | 1993 | Medellín | 0500500 | Abcdef123456789 | Abcdef123456789 |
 
   @ScenarioEmailIncorrect
   Scenario: Enter invalid email when creating a new account
